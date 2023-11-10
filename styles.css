@@ -1,4 +1,4 @@
-/* Estilos gerais */
+//* Estilos gerais */
 body {
     margin: 0;
     padding: 0;
@@ -119,4 +119,32 @@ form button {
 }
 
 /* Estilos responsivos */
-@media (
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .menu-item h3 {
+        font-size: 20px;
+    }
+
+    .menu-item p {
+        font-size: 14px;
+    }
+
+    .menu-item .price {
+        font-size: 16px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+
+    form input, form select {
+        font-size: 14px;
+    }
+
+    form button {
+        font-size: 16px;
+    }
+}
