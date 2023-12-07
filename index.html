@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizzaria Trapp</title>
+</head>
+<body>
+
+    <header>
+        <h1>Pizzaria Trapp</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#promocoes">Promoções</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo à Pizzaria Trapp, onde a tradição encontra o sabor. Nossa missão é oferecer as melhores pizzas feitas com ingredientes frescos e de alta qualidade. Em cada pizza, colocamos uma pitada de paixão e dedicação.</p>
+        <img src="./img/logo.jpg" alt="Pizza Deliciosa"> <br>
+        <a href="https://maps.app.goo.gl/CstFdVNX2v4GLSXn7">Como chegar?</a>
+    </section>
+
+    <section id="menu">
+        <h2>Cardápio</h2>
+        <div class="menu-item">
+            <img src="./img/marge.jpg" alt="Pizza Margherita">
+            <h3>Margherita</h3>
+            <p>Molho de tomate, muçarela, tomate e manjericão.</p>
+        </div>
+        <div class="menu-item">
+            <img src="./img/pepe.jpg" alt="Pizza de Pepperoni">
+            <h3>Pepperoni</h3>
+            <p>Molho de tomate, muçarela e pepperoni.</p>
+        </div>
+        <div class="menu-item">
+            <img src="./img/queijo.jpg" alt="Pizza Quatro Queijos">
+            <h3>Quatro Queijos</h3>
+            <p>Molho de tomate, muçarela, parmesão, gorgonzola e catupiry.</p>
+        </div>
+        <div class="menu-item">
+            <img src="./img/cala.jpg" alt="Pizza de Calabresa">
+            <h3>Calabresa</h3>
+            <p>Molho de tomate, muçarela e calabresa fatiada.</p>
+        </div>
+        <div class="menu-item">
+            <img src="./img/frango.jpg" alt="Pizza de Frango com Catupiry">
+            <h3>Frango com Catupiry</h3>
+            <p>Molho de tomate, muçarela, frango desfiado e catupiry.</p>
+        </div>
+        <div class="menu-item">
+            <img src="./img/port.jpg" alt="Pizza Portuguesa">
+            <h3>Portuguesa</h3>
+            <p>Molho de tomate, muçarela, presunto, ovos, cebola, azeitonas e tomate.</p>
+        </div>
+        
+    </section>
+
+    <section id="promocoes">
+        <h2>Promoções</h2>
+        <p>Aproveite nossas ofertas especiais:</p>
+        <div class="promocao-item">
+            <img src="./img/promo1.jpg" alt="Pizza em Dobro">
+            <h3>Pizza em Dobro</h3>
+            <p>Compre uma pizza grande e ganhe outra de igual ou menor valor.</p>
+        </div>
+        <div class="promocao-item">
+            <img src="./img/promo2.png" alt="Combo Família">
+            <h3>Combo Família</h3>
+            <p>Pizza grande + refrigerante 2L + porção de batata por apenas R$ 50,00.</p>
+        </div>
+        
+    </section>
+
+    <section id="depoimentos">
+        <h2>Depoimentos</h2>
+        <div class="depoimento">
+            <img src="./img/cliente.png" alt="Cliente 1">
+            <p>"As pizzas da Pizzaria Trapp são incríveis! Sempre peço para a família e todos adoram."</p>
+            <p class="nome-cliente">- Josue Silva</p>
+        </div>
+        <div class="depoimento">
+            <img src="./img/maria.png" alt="Cliente 2">
+            <p>"Entrega rápida e pizza quentinha. Recomendo para quem busca qualidade e sabor!"</p>
+            <p class="nome-cliente">- Maria Oliveira</p>
+        </div>
+        
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para fazer seu pedido ou tirar dúvidas:</p>
+        <form action="enviar.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pizzaria Delícia. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
